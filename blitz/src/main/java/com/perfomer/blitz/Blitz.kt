@@ -45,6 +45,17 @@ fun TextView.setTimeAgo(
     }
 }
 
+fun TextView.cancelTimeAgoUpdates() {
+    val tag = getTag(R.id.blitz)
+
+    if (tag == null || tag !is BlitzAttachListener) {
+        return
+    }
+
+    tag.dropCounter()
+    removeOnAttachStateChangeListener(tag)
+}
+
 internal fun getBlitzTime(diff: Long): BlitzTime {
     return BlitzTime.values().find { diff < it.differenceMs } ?: BlitzTime.YEARS
 }
