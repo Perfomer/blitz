@@ -1,0 +1,17 @@
+<resources>
+    <string name="blitz_future">in future</string>
+    <string name="blitz_now">just now</string>
+    <string name="blitz_seconds">%d seconds ago</string>
+    <string name="blitz_minute">a minute ago</string>
+    <string name="blitz_minutes">%d minutes ago</string>
+    <string name="blitz_hour">an hour ago</string>
+    <string name="blitz_hours">%d hours ago</string>
+    <string name="blitz_day">yesterday</string>
+    <string name="blitz_days">%d days ago</string>
+    <string name="blitz_week">a week ago</string>
+    <string name="blitz_weeks">%d weeks ago</string>
+    <string name="blitz_month">a month ago</string>
+    <string name="blitz_months">%d months ago</string>
+    <string name="blitz_year">a year ago</string>
+    <string name="blitz_years">%d years ago</string>
+</resources>

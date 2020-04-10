@@ -1,0 +1,3 @@
+rootProject.name = "Blitz"
+include ':blitz'
+include ':app'
