@@ -2,29 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:paddingTop="24dp">
+    android:paddingStart="24dp"
+    android:paddingTop="12dp"
+    android:paddingEnd="24dp">
 
     <TextView
+        android:id="@+id/item_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The app was launched:"
-        tools:ignore="HardcodedText" />
+        android:textSize="16sp"
+        tools:text="10 April 2020 16:43:12" />
 
     <TextView
-        android:id="@+id/blitz_maintext"
+        android:id="@+id/item_relative_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="12dp"
         android:textColor="@android:color/black"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textSize="16sp"
+        tools:text="2 seconds ago" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/blitz_recycler"
+    <View
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="24dp" />
+        android:layout_height="1dp"
+        android:background="#CFCFCF" />
 
 </LinearLayout>

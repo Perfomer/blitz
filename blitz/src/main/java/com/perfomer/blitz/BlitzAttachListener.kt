@@ -21,16 +21,12 @@ internal class BlitzAttachListener(
             updateRunnableSubscription()
         }
 
-    //todo remove
-    var counter = 0
-
     private val runnable = object : Runnable {
         override fun run() {
             val diff = System.currentTimeMillis() - time
             val blitzTime = getBlitzTime(diff)
 
-            target.diffedValue = blitzTime.getText(target.context, diff, showSeconds) + " " + counter
-            counter++
+            target.diffedValue = blitzTime.getText(target.context, diff, showSeconds)
             target.postDelayed(this, blitzTime.updateRateMs)
         }
     }
