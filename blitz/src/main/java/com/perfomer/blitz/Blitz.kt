@@ -4,15 +4,41 @@ import android.content.Context
 import android.widget.TextView
 import java.util.*
 
+/**
+ * Provides relative time [String]
+ *
+ * @receiver context.
+ * @param date time of the event.
+ * @param showSeconds **true** — show exact seconds count if time difference is less than minute;
+ *                    **false** — shows "just now" message if time difference is less than minute.
+ */
 fun Context.getTimeAgo(date: Date, showSeconds: Boolean = false): String {
     return getTimeAgo(date.time, showSeconds)
 }
 
+/**
+ * Provides relative time [String]
+ *
+ * @receiver context.
+ * @param time time of the event (in millis).
+ * @param showSeconds **true** — show exact seconds count if time difference is less than minute;
+ *                    **false** — shows "just now" message if time difference is less than minute.
+ */
 fun Context.getTimeAgo(time: Long, showSeconds: Boolean = false): String {
     val diff = System.currentTimeMillis() - time
     return getBlitzTime(diff).getText(this, diff, showSeconds)
 }
 
+/**
+ * Sets relative time [String] to the [TextView]
+ *
+ * @receiver [TextView]: target for time [String] setting.
+ * @param date time of the event.
+ * @param showSeconds **true** — show exact seconds count if time difference is less than minute;
+ *                    **false** — shows "just now" message if time difference is less than minute.
+ * @param autoUpdate **true** — current [TextView] will update itself automatically;
+ *                   **false** — set relative time [String] only once.
+ */
 fun TextView.setTimeAgo(
     date: Date,
     showSeconds: Boolean = false,
@@ -21,6 +47,16 @@ fun TextView.setTimeAgo(
     setTimeAgo(date.time, showSeconds, autoUpdate)
 }
 
+/**
+ * Sets relative time [String] to the [TextView]
+ *
+ * @receiver [TextView]: target for time [String] setting.
+ * @param time time of the event (in millis).
+ * @param showSeconds **true** — show exact seconds count if time difference is less than minute;
+ *                    **false** — shows "just now" message if time difference is less than minute.
+ * @param autoUpdate **true** — current [TextView] will update itself automatically;
+ *                   **false** — set relative time [String] only once.
+ */
 fun TextView.setTimeAgo(
     time: Long,
     showSeconds: Boolean = false,
