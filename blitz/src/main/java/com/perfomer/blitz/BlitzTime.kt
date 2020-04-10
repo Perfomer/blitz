@@ -1,6 +1,6 @@
 package com.perfomer.blitz
 
-import androidx.annotation.StringRes
+import androidx.annotation.PluralsRes
 
 private const val SECOND_MILLIS = 1000L
 private const val MINUTE_MILLIS = 60L * SECOND_MILLIS
@@ -14,98 +14,98 @@ internal enum class BlitzTime(
     val dividerMs: Long? = null,
     val differenceMs: Long,
     val updateRateMs: Long,
-    @StringRes val textResource: Int
+    @PluralsRes val textResource: Int
 ) {
 
     FUTURE(
         differenceMs = 0L,
         updateRateMs = 5L * SECOND_MILLIS,
-        textResource = R.string.blitz_future
+        textResource = R.plurals.blitz_future
     ),
 
     SECONDS(
         dividerMs = SECOND_MILLIS,
         differenceMs = MINUTE_MILLIS,
         updateRateMs = SECOND_MILLIS,
-        textResource = R.string.blitz_seconds
+        textResource = R.plurals.blitz_seconds
     ),
 
     MINUTE(
         differenceMs = 2L * MINUTE_MILLIS,
         updateRateMs = 30L * SECOND_MILLIS,
-        textResource = R.string.blitz_minute
+        textResource = R.plurals.blitz_minute
     ),
 
     MINUTES(
         dividerMs = MINUTE_MILLIS,
         differenceMs = HOUR_MILLIS,
         updateRateMs = MINUTE_MILLIS,
-        textResource = R.string.blitz_minutes
+        textResource = R.plurals.blitz_minute
     ),
 
     HOUR(
         differenceMs = 2L * HOUR_MILLIS,
         updateRateMs = 30L * MINUTE_MILLIS,
-        textResource = R.string.blitz_hour
+        textResource = R.plurals.blitz_hour
     ),
 
     HOURS(
         dividerMs = HOUR_MILLIS,
         differenceMs = DAY_MILLIS,
         updateRateMs = HOUR_MILLIS,
-        textResource = R.string.blitz_hours
+        textResource = R.plurals.blitz_hour
     ),
 
     DAY(
         differenceMs = 2L * DAY_MILLIS,
         updateRateMs = 12L * HOUR_MILLIS,
-        textResource = R.string.blitz_day
+        textResource = R.plurals.blitz_day
     ),
 
     DAYS(
         dividerMs = DAY_MILLIS,
         differenceMs = WEEK_MILLIS,
         updateRateMs = DAY_MILLIS,
-        textResource = R.string.blitz_days
+        textResource = R.plurals.blitz_day
     ),
 
     WEEK(
         differenceMs = 2L * WEEK_MILLIS,
         updateRateMs = 4 * DAY_MILLIS,
-        textResource = R.string.blitz_week
+        textResource = R.plurals.blitz_week
     ),
 
     WEEKS(
         dividerMs = WEEK_MILLIS,
         differenceMs = MONTH_MILLIS,
         updateRateMs = WEEK_MILLIS,
-        textResource = R.string.blitz_weeks
+        textResource = R.plurals.blitz_week
     ),
 
     MONTH(
         differenceMs = 2L * MONTH_MILLIS,
         updateRateMs = 2 * WEEK_MILLIS,
-        textResource = R.string.blitz_month
+        textResource = R.plurals.blitz_month
     ),
 
     MONTHS(
         dividerMs = MONTH_MILLIS,
         differenceMs = YEAR_MILLIS,
         updateRateMs = MONTH_MILLIS,
-        textResource = R.string.blitz_months
+        textResource = R.plurals.blitz_month
     ),
 
     YEAR(
         differenceMs = 2L * YEAR_MILLIS,
         updateRateMs = 6 * MONTH_MILLIS,
-        textResource = R.string.blitz_year
+        textResource = R.plurals.blitz_year
     ),
 
     YEARS(
         dividerMs = YEAR_MILLIS,
         differenceMs = -1,
         updateRateMs = YEAR_MILLIS,
-        textResource = R.string.blitz_years
+        textResource = R.plurals.blitz_year
     )
 
 }

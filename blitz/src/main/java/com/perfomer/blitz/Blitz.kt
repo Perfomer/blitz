@@ -1,6 +1,7 @@
 package com.perfomer.blitz
 
 import android.content.Context
+import android.content.res.Resources
 import android.widget.TextView
 import java.util.*
 
@@ -25,6 +26,30 @@ fun Context.getTimeAgo(date: Date, showSeconds: Boolean = false): String {
  *                    **false** — shows "just now" message if time difference is less than minute.
  */
 fun Context.getTimeAgo(time: Long, showSeconds: Boolean = false): String {
+    return resources.getTimeAgo(time, showSeconds)
+}
+
+/**
+ * Provides relative time [String]
+ *
+ * @receiver context.
+ * @param date time of the event.
+ * @param showSeconds **true** — show exact seconds count if time difference is less than minute;
+ *                    **false** — shows "just now" message if time difference is less than minute.
+ */
+fun Resources.getTimeAgo(date: Date, showSeconds: Boolean = false): String {
+    return getTimeAgo(date.time, showSeconds)
+}
+
+/**
+ * Provides relative time [String]
+ *
+ * @receiver context.
+ * @param time time of the event (in millis).
+ * @param showSeconds **true** — show exact seconds count if time difference is less than minute;
+ *                    **false** — shows "just now" message if time difference is less than minute.
+ */
+fun Resources.getTimeAgo(time: Long, showSeconds: Boolean = false): String {
     val diff = System.currentTimeMillis() - time
     return getBlitzTime(diff).getText(this, diff, showSeconds)
 }
@@ -96,14 +121,15 @@ internal fun getBlitzTime(diff: Long): BlitzTime {
     return BlitzTime.values().find { diff < it.differenceMs } ?: BlitzTime.YEARS
 }
 
-internal fun BlitzTime.getText(context: Context, diff: Long, showSeconds: Boolean): String {
+internal fun BlitzTime.getText(resources: Resources, diff: Long, showSeconds: Boolean): String {
     return if (dividerMs == null) {
-        context.getString(textResource)
+        resources.getQuantityString(textResource, 1)
     } else {
         if (this == BlitzTime.SECONDS && !showSeconds) {
-            context.getString(R.string.blitz_now)
+            resources.getString(R.string.blitz_now)
         } else {
-            context.getString(textResource, diff / dividerMs)
+            val quantity = (diff / dividerMs).toInt()
+            resources.getQuantityString(textResource, quantity, quantity)
         }
     }
 }

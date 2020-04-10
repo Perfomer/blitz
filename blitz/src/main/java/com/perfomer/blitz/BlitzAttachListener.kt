@@ -26,7 +26,7 @@ internal class BlitzAttachListener(
             val diff = System.currentTimeMillis() - time
             val blitzTime = getBlitzTime(diff)
 
-            target.diffedValue = blitzTime.getText(target.context, diff, showSeconds)
+            target.diffedValue = blitzTime.getText(target.resources, diff, showSeconds)
             target.postDelayed(this, blitzTime.updateRateMs)
         }
     }
