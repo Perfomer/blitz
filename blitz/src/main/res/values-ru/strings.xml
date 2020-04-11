@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="blitz_future">в будущем</string>
+    <string name="blitz_now">только что</string>
+
+    <string name="blitz_single_minute">минуту назад</string>
+    <string name="blitz_single_hour">час назад</string>
+    <string name="blitz_single_day">вчера</string>
+    <string name="blitz_single_week">неделя назад</string>
+    <string name="blitz_single_month">месяц назад</string>
+    <string name="blitz_single_year">год назад</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="one">%d секунду назад</item>
+        <item quantity="few">%d секунды назад</item>
+        <item quantity="many">%d секунд назад</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+        <item quantity="many">%d минут назад</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="one">%d час назад</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="many">%d часов назад</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="many">%d дней назад</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="one">%d неделю назад</item>
+        <item quantity="few">%d недели назад</item>
+        <item quantity="many">%d недель назад</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="one">%d месяц назад</item>
+        <item quantity="few">%d месяца назад</item>
+        <item quantity="many">%d месяцев назад</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="one">%d год назад</item>
+        <item quantity="few">%d года назад</item>
+        <item quantity="many">%d лет назад</item>
+    </plurals>
+
+</resources>
