@@ -1,5 +1,5 @@
 # blitz
-**blitz** is a very lightweight library that allows you to set a **self-updating string with relative time** in `TextView` in **just one line of code**.
+**blitz** is a very lightweight Android library that allows you to set a **self-updating string with relative time** in `TextView` in **just one line of code**.
 
 <img src="art/blitz_preview.gif" width="420">
 
