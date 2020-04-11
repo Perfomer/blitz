@@ -67,6 +67,11 @@ myTextView.setTimeAgo(
 )
 ```
 
+If you don't want to get time updates more than use cancel method:
+```kotlin
+myTextView.cancelTimeAgoUpdates()
+```
+
 ### String
 If you just want to get a time-relative string, then you can use the following extension methods:
 ```kotlin
