@@ -32,7 +32,7 @@ fun Context.getTimeAgo(time: Long, showSeconds: Boolean = false): String {
 /**
  * Provides relative time [String]
  *
- * @receiver context.
+ * @receiver resources.
  * @param date time of the event.
  * @param showSeconds **true** — show exact seconds count if time difference is less than minute;
  *                    **false** — shows "just now" message if time difference is less than minute.
@@ -44,7 +44,7 @@ fun Resources.getTimeAgo(date: Date, showSeconds: Boolean = false): String {
 /**
  * Provides relative time [String]
  *
- * @receiver context.
+ * @receiver resources.
  * @param time time of the event (in millis).
  * @param showSeconds **true** — show exact seconds count if time difference is less than minute;
  *                    **false** — shows "just now" message if time difference is less than minute.
