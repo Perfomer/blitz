@@ -1,4 +1,6 @@
 # blitz
+<img src="https://jitpack.io/v/Perfomer/blitz.svg"> <img src="https://camo.githubusercontent.com/2518b41b300b48accbaa89b537b9158f7a2d2fc2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322d3445423142412e7376673f7374796c653d666c61742d737175617265">
+
 **blitz** is a very lightweight Android library that allows you to set a **self-updating string with relative time** in `TextView` in **just one line of code**.
 
 <img src="art/blitz_preview.gif" width="420">
@@ -41,7 +43,7 @@ dependencies {
    implemetation 'com.github.perfomer:blitz:LATEST_VERSION'
 }
 ```
-See the last release version here: [[LATEST_VERSIONS]](https://github.com/Perfomer/blitz/releases).
+See the lastest release version here: <img src="https://jitpack.io/v/Perfomer/blitz.svg">.
 
 ## Usage
 ### TextView
