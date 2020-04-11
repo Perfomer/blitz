@@ -9,7 +9,7 @@
 
 It will **not overheadly** update your `TextView`: e.g. if your relative time is `5 minutes ago` then **blitz** will send update only after one minute, not every second. The same with others time units: hours updates once an hour, etc.
 
-Don't be scared to **use in in your `ViewHolder`s**, 'cause **blitz** won't let anything leak and will take care of the system resources.
+Don't be scared to **use it in your `ViewHolder`s**, 'cause **blitz** won't let anything leak and will take care of the system resources.
 
 ### Briefly usage:
 ```kotlin
