@@ -126,13 +126,13 @@ internal fun getBlitzTime(diff: Long): BlitzTime {
 
 internal fun BlitzTime.getText(resources: Resources, diff: Long, showSeconds: Boolean): String {
     return if (dividerMs == null) {
-        resources.getQuantityString(textResource, 1)
+        resources.getString(singleStringResource!!)
     } else {
         if (this == BlitzTime.SECONDS && !showSeconds) {
             resources.getString(R.string.blitz_now)
         } else {
             val quantity = (diff / dividerMs).toInt()
-            resources.getQuantityString(textResource, quantity, quantity)
+            resources.getQuantityString(pluralResource!!, quantity, quantity)
         }
     }
 }

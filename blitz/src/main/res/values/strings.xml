@@ -1,42 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="blitz_now">just now</string>
 
-    <plurals name="blitz_future">
-        <item quantity="one">in future</item>
-    </plurals>
+    <string name="blitz_now">just now</string>
+    <string name="blitz_future">in future</string>
+
+    <string name="blitz_single_minute">a minute ago</string>
+    <string name="blitz_single_hour">an hour ago</string>
+    <string name="blitz_single_day">yesterday</string>
+    <string name="blitz_single_week">a week ago</string>
+    <string name="blitz_single_month">a month ago</string>
+    <string name="blitz_single_year">a year ago</string>
 
     <plurals name="blitz_seconds">
         <item quantity="other">%d seconds ago</item>
     </plurals>
 
-    <plurals name="blitz_minute">
-        <item quantity="one">a minute ago</item>
+    <plurals name="blitz_minutes">
         <item quantity="other">%d minutes ago</item>
     </plurals>
 
-    <plurals name="blitz_hour">
-        <item quantity="one">an hour ago</item>
+    <plurals name="blitz_hours">
         <item quantity="other">%d hours ago</item>
-
     </plurals>
 
-    <plurals name="blitz_day">
-        <item quantity="one">yesterday</item>
+    <plurals name="blitz_days">
         <item quantity="other">%d days ago</item>
     </plurals>
 
-    <plurals name="blitz_week">
-        <item quantity="one">a week ago</item>
+    <plurals name="blitz_weeks">
         <item quantity="other">%d weeks ago</item>
     </plurals>
 
-    <plurals name="blitz_month">
-        <item quantity="one">a month ago</item>
+    <plurals name="blitz_months">
         <item quantity="other">%d months ago</item>
     </plurals>
 
-    <plurals name="blitz_year">
-        <item quantity="one">a year ago</item>
+    <plurals name="blitz_years">
         <item quantity="other">%d years ago</item>
     </plurals>
+
 </resources>
