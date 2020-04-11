@@ -106,6 +106,9 @@ fun TextView.setTimeAgo(
     }
 }
 
+/**
+ * Stop automatic updates of the time inside the [TextView]
+ */
 fun TextView.cancelTimeAgoUpdates() {
     val tag = getTag(R.id.blitz)
 
