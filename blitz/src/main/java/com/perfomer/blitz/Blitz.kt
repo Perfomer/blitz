@@ -103,23 +103,23 @@ fun TextView.setTimeAgo(
     showSeconds: Boolean = false,
     autoUpdate: Boolean = true
 ) {
-    if (autoUpdate) {
-        val tag = getTag(R.id.blitz)
-        val stateChangeListener: BlitzAttachListener
-
-        if (tag == null || tag !is BlitzAttachListener) {
-            stateChangeListener = BlitzAttachListener(this)
-            addOnAttachStateChangeListener(stateChangeListener)
-            setTag(R.id.blitz, stateChangeListener)
-        } else {
-            stateChangeListener = tag
-        }
-
-        stateChangeListener.showSeconds = showSeconds
-        stateChangeListener.time = time
-    } else {
+    if (!autoUpdate) {
         this.diffedValue = context.getTimeAgo(time, showSeconds)
     }
+
+    val tag = getTag(R.id.blitz)
+    val stateChangeListener: BlitzAttachListener
+
+    if (tag is BlitzAttachListener) {
+        stateChangeListener = tag
+    } else {
+        stateChangeListener = BlitzAttachListener(this)
+        addOnAttachStateChangeListener(stateChangeListener)
+        setTag(R.id.blitz, stateChangeListener)
+    }
+
+    stateChangeListener.showSeconds = showSeconds
+    stateChangeListener.time = time
 }
 
 /**
@@ -128,16 +128,15 @@ fun TextView.setTimeAgo(
 fun TextView.cancelTimeAgoUpdates() {
     val tag = getTag(R.id.blitz)
 
-    if (tag == null || tag !is BlitzAttachListener) {
-        return
-    }
+    if (tag !is BlitzAttachListener) return
 
     tag.dropCounter()
     removeOnAttachStateChangeListener(tag)
 }
 
 internal fun getBlitzTime(diff: Long): BlitzTime {
-    return BlitzTime.values().find { diff < it.differenceMs } ?: BlitzTime.YEARS
+    val timeUnits = BlitzTime.values()
+    return timeUnits.find { diff < it.differenceMs } ?: timeUnits.last()
 }
 
 internal fun BlitzTime.getText(resources: Resources, diff: Long, showSeconds: Boolean): String {
