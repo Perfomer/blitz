@@ -29,7 +29,7 @@ There's not your language? You can help the community by sending a **Pull Reques
 
 ## Installation:
 ### Step 1
-Add repository to your `gradle.build` file __(project)__
+Add repository to your `gradle.build` file **(project)**
 ```gradle
 allprojects {
   repositories {
@@ -44,7 +44,7 @@ dependencies {
    implemetation 'com.github.perfomer:blitz:LATEST_VERSION'
 }
 ```
-See the lastest release version here: <img src="https://jitpack.io/v/Perfomer/blitz.svg">.
+See the latest release version here: <img src="https://jitpack.io/v/Perfomer/blitz.svg">.
 
 ## Usage
 ### TextView
