@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingQuantity">
+    <string name="blitz_future">en el futuro</string>
+    <string name="blitz_now">justo ahora</string>
+
+    <string name="blitz_single_minute">hace un minuto</string>
+    <string name="blitz_single_hour">hace una hora</string>
+    <string name="blitz_single_day">ayer</string>
+    <string name="blitz_single_week">hace una semana</string>
+    <string name="blitz_single_month">hace un mes</string>
+    <string name="blitz_single_year">hace un año</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="other">hace %d segundos</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="other">hace %d minutos</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="other">hace %d horas</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="other">hace %d días</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="other">hace %d semanas</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="other">hace %d meses</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="other">hace %d años</item>
+    </plurals>
+</resources>

@@ -23,6 +23,7 @@ myTextView.setTimeAgo(eventTime)
 ## Languages support:
 - <img src="https://emojio.ru/images/apple-b/1f1fa-1f1f8.png" alt="🇺🇸" width="16"> English
 - <img src="https://emojio.ru/images/apple-b/1f1f7-1f1fa.png" alt="🇷🇺" width="16"> Russian
+- <img src="https://emojio.ru/images/apple-b/1f1ea-1f1f8.png" alt="🇪🇸" width="16"> Spanish (by [webserveis](https://github.com/webserveis))
 
 There's not your language? You can help the community by sending a **Pull Request**.
 
