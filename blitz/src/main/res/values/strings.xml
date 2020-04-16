@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="blitz_now">just now</string>
     <string name="blitz_future">in future</string>
+    <string name="blitz_now">just now</string>
 
     <string name="blitz_single_minute">a minute ago</string>
     <string name="blitz_single_hour">an hour ago</string>
@@ -38,5 +37,4 @@
     <plurals name="blitz_years">
         <item quantity="other">%d years ago</item>
     </plurals>
-
 </resources>

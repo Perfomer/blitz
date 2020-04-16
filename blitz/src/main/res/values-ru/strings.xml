@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="blitz_future">в будущем</string>
     <string name="blitz_now">только что</string>
 
@@ -52,5 +51,4 @@
         <item quantity="few">%d года назад</item>
         <item quantity="many">%d лет назад</item>
     </plurals>
-
 </resources>
