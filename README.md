@@ -1,5 +1,5 @@
 # blitz
-<img src="https://jitpack.io/v/Perfomer/blitz.svg"> <img src="https://camo.githubusercontent.com/2518b41b300b48accbaa89b537b9158f7a2d2fc2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322d3445423142412e7376673f7374796c653d666c61742d737175617265">
+<img src="https://jitpack.io/v/Perfomer/blitz.svg"> [![GitHub license](https://img.shields.io/github/license/Perfomer/blitz)](https://github.com/Perfomer/blitz/blob/master/LICENSE)
 
 **blitz** is a very lightweight Android library that allows you to set a **self-updating string with relative time** in `TextView` in **just one line of code**.
 
@@ -46,7 +46,7 @@ dependencies {
 ```
 See the latest release version here: <img src="https://jitpack.io/v/Perfomer/blitz.svg">.
 
-## Usage
+## Usage:
 ### TextView
 If you want to set the **self-updating string with relative time** direct into the `TextView` then use extesnsion method:
 ```kotlin
@@ -80,12 +80,12 @@ val contextString: String = context.getTimeAgo(time = eventTime, showSeconds = f
 val resourcesString: String = resources.getTimeAgo(time = eventTime, showSeconds = false)
 ```
 
-## Communication
+## Communication:
 - If you found a bug, please [open an Issue](https://github.com/Perfomer/blitz/issues).
 - If you have a feature request, please [open an Issue](https://github.com/Perfomer/blitz/issues).
 - If you want to contribute, please [submit a Pull request](https://github.com/Perfomer/blitz/pulls).
 
-## License
+## License:
 ```
 Apache 2.0 LICENSE
 
