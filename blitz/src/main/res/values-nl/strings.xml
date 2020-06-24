@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blitz_future">in de toekomst</string>
+    <string name="blitz_now">zojuist</string>
+
+    <string name="blitz_single_minute">een minuut geleden</string>
+    <string name="blitz_single_hour">een uur geleden</string>
+    <string name="blitz_single_day">gisteren</string>
+    <string name="blitz_single_week">een week geleden</string>
+    <string name="blitz_single_month">een maand geleden</string>
+    <string name="blitz_single_year">een jaar geleden</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="one">%d seconde geleden</item>
+        <item quantity="other">%d seconden geleden</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="one">%d minuut geleden</item>
+        <item quantity="other">%d minuten geleden</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="one">%d uur geleden</item>
+        <item quantity="other">%d uur geleden</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="one">%d dag geleden</item>
+        <item quantity="other">%d dagen geleden</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="one">%d week geleden</item>
+        <item quantity="other">%d weken geleden</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="one">%d maand geleden</item>
+        <item quantity="other">%d maanden geleden</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="one">%d jaar geleden</item>
+        <item quantity="other">%d jaar geleden</item>
+    </plurals>
+</resources>
