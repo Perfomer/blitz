@@ -44,7 +44,7 @@ allprojects {
 Add dependency to your `gradle.build` file __(app) or other module__
 ```gradle
 dependencies {
-   implemetation 'com.github.perfomer:blitz:LATEST_VERSION'
+   implementation 'com.github.perfomer:blitz:LATEST_VERSION'
 }
 ```
 See the latest release version here: <img src="https://jitpack.io/v/Perfomer/blitz.svg">.
