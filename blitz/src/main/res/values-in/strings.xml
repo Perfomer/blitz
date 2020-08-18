@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blitz_future">nanti</string>
+    <string name="blitz_now">baru saja</string>
+    <string name="blitz_single_minute">semenit yang lalu</string>
+    <string name="blitz_single_hour">sejam yang lalu</string>
+    <string name="blitz_single_day">kemarin</string>
+    <string name="blitz_single_week">seminggu yang lalu</string>
+    <string name="blitz_single_month">sebulan yang lalu</string>
+    <string name="blitz_single_year">setahun yang lalu</string>
+</resources>
