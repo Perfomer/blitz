@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blitz_future">ในอนาคต</string>
+    <string name="blitz_now">เมื่อสักครู่</string>
+
+    <string name="blitz_single_minute">เมื่อ 1 นาทีที่แล้ว</string>
+    <string name="blitz_single_hour">เมื่อชั่วโมงที่แล้ว</string>
+    <string name="blitz_single_day">เมื่อวาน</string>
+    <string name="blitz_single_week">เมื่อสัปดาห์ที่แล้ว</string>
+    <string name="blitz_single_month">เมื่อเดือนที่แล้ว</string>
+    <string name="blitz_single_year">เมื่อปีที่แล้ว</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="other">%d วินาทีที่แล้ว</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="other">%d นาทีที่แล้ว</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="other">%d ชั่วโมงที่แล้ว</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="other">%d วันที่แล้ว</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="other">%d สัปดาห์ที่แล้ว</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="other">%d เดือนที่แล้ว</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="other">%d ปีที่แล้ว</item>
+    </plurals>
+</resources>
