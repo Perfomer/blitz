@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blitz_future">در آینده</string>
+    <string name="blitz_now">همین الان</string>
+
+    <string name="blitz_single_minute">یک دقیقه پیش</string>
+    <string name="blitz_single_hour">یک ساعت پیش</string>
+    <string name="blitz_single_day">دیروز</string>
+    <string name="blitz_single_week">یک هفته پیش</string>
+    <string name="blitz_single_month">یک ماه پیش</string>
+    <string name="blitz_single_year">یک سال پیش</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="other">%d ثانیه قبل</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="other">%d دقیقه قبل</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="other">%d ساعت قبل</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="other">%d روز قبل</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="other">%d هفته قبل</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="other">%d ماه قبل</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="other">%d سال قبل</item>
+    </plurals>
+</resources>
