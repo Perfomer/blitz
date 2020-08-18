@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"  tools:ignore="MissingQuantity">
+
+    <string name="blitz_future">во иднина</string>
+    <string name="blitz_now">сега</string>
+
+    <string name="blitz_single_minute">пред една минута</string>
+    <string name="blitz_single_hour">пред еден саат</string>
+    <string name="blitz_single_day">вчера</string>
+    <string name="blitz_single_week">пред една недела</string>
+    <string name="blitz_single_month">пред еден месец</string>
+    <string name="blitz_single_year">пред една година</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="other">пред %d секунди</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="other">пред %d минути</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="other">пред %d саати</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="other">пред %d дена</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="other">пред %d недели</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="other">пред %d месеци</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="other">пред %d години</item>
+    </plurals>
+
+
+</resources>
