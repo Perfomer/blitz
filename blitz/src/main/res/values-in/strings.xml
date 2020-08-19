@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blitz_future">nanti</string>
+    <string name="blitz_now">baru saja</string>
+    <string name="blitz_single_minute">semenit yang lalu</string>
+    <string name="blitz_single_hour">sejam yang lalu</string>
+    <string name="blitz_single_day">kemarin</string>
+    <string name="blitz_single_week">seminggu yang lalu</string>
+    <string name="blitz_single_month">sebulan yang lalu</string>
+    <string name="blitz_single_year">setahun yang lalu</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="other">%d detik yang lalu</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="other">%d menit yang lalu</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="other">%d jam yang lalu</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="other">%d hari yang lalu</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="other">%d minggu yang lalu</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="other">%d bulan yang lalu</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="other">%d tahun yang lalu</item>
+    </plurals>
+</resources>
