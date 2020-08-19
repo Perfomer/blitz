@@ -29,6 +29,7 @@ myTextView.setTimeAgo(eventTime)
 - <img src="https://emojio.ru/images/apple-b/1f1f9-1f1ed.png" alt="🇹🇭" width="16"> Thai (by [minibugdev](https://github.com/minibugdev))
 - <img src="https://emojio.ru/images/apple-b/1f1ee-1f1f7.png" alt="🇮🇷" width="16"> Persian/Farsi (by [SinaDalvand](https://github.com/sinadalvand))
 - <img src="https://emojio.ru/images/apple-m/1f1f2-1f1f0.png" alt="🇲🇰" width="16"> Macedonian (by [CraZyLegenD](https://github.com/CraZyLegenD))
+- <img src="https://emojio.ru/images/apple-m/1f1ee-1f1e9.png" alt="🇮🇩" width="16"> Indonesian (by [utsmannn](https://github.com/utsmannn))
 
 
 
