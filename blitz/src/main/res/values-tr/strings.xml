@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blitz_future">henüz geçmedi</string>
+    <string name="blitz_now">az önce</string>
+
+    <string name="blitz_single_minute">bir dakika önce</string>
+    <string name="blitz_single_hour">bir saat önce</string>
+    <string name="blitz_single_day">dün</string>
+    <string name="blitz_single_week">bir hafta önce</string>
+    <string name="blitz_single_month">bir ay önce</string>
+    <string name="blitz_single_year">bir yıl önce</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="other">%d saniye önce</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="other">%d dakika önce</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="other">%d saat önce</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="other">%d gün önce</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="other">%d hafta önce</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="other">%d ay önce</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="other">%d yıl önce</item>
+    </plurals>
+</resources>
