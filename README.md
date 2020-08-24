@@ -31,7 +31,7 @@ myTextView.setTimeAgo(eventTime)
 - <img src="https://emojio.ru/images/apple-m/1f1f2-1f1f0.png" alt="🇲🇰" width="16"> Macedonian (by [CraZyLegenD](https://github.com/CraZyLegenD))
 - <img src="https://emojio.ru/images/apple-m/1f1ee-1f1e9.png" alt="🇮🇩" width="16"> Indonesian (by [utsmannn](https://github.com/utsmannn))
 - <img src="https://emojio.ru/images/apple-m/1f1f9-1f1f7.png" alt="🇮🇩" width="16"> Turkish (by [necatisozer](https://github.com/necatisozer))
-
+- <img src="https://emojio.ru/images/apple-m/1f1e8-1f1f3.png" alt="🇮🇩" width="16"> Chinese: simplified, traditional, Cantonese (by [fython](https://github.com/fython))
 
 
 There's not your language? You can help the community by sending a **Pull Request**.
