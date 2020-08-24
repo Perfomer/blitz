@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blitz_future">喺未來</string>
+    <string name="blitz_now">啱啱</string>
+
+    <string name="blitz_single_minute">1 分鐘前</string>
+    <string name="blitz_single_hour">1 個鐘前</string>
+    <string name="blitz_single_day">尋日</string>
+    <string name="blitz_single_week">1 周前</string>
+    <string name="blitz_single_month">1 個月前</string>
+    <string name="blitz_single_year">1 年前</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="other">%d 秒前</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="other">%d 分鐘前</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="other">%d 個鐘前</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="other">%d 日前</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="other">%d 周前</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="other">%d 個月前</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="other">%d 年前</item>
+    </plurals>
+</resources>
