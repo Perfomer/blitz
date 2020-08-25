@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blitz_future">sắp tới</string>
+    <string name="blitz_now">vừa mới đây</string>
+
+    <string name="blitz_single_minute">một phút trước</string>
+    <string name="blitz_single_hour">một giờ trước</string>
+    <string name="blitz_single_day">hôm qua</string>
+    <string name="blitz_single_week">một tuần trước</string>
+    <string name="blitz_single_month">một tháng trước</string>
+    <string name="blitz_single_year">một năm trước</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="other">%d giây trước</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="other">%d phút trước</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="other">%d giờ trước</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="other">%d tuần trước</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="other">%d tháng trước</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="other">%d năm trước</item>
+    </plurals>
+</resources>
