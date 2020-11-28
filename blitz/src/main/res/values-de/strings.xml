@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingQuantity">
+    <string name="blitz_future">in der Zukunft</string>
+    <string name="blitz_now">jetzt gerade</string>
+
+    <string name="blitz_single_minute">vor einer Minute</string>
+    <string name="blitz_single_hour">vor einer Stunde</string>
+    <string name="blitz_single_day">gestern</string>
+    <string name="blitz_single_week">vor einer Woche</string>
+    <string name="blitz_single_month">vor einem Monat</string>
+    <string name="blitz_single_year">vor einem Jahr</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="other">vor %d Sekunden</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="other">vor %d Minuten</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="other">vor %d Stunden</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="other">vor %d Tagen</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="other">vor %d Wochen</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="other">vor %d Monaten</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="other">vor %d Jahren</item>
+    </plurals>
+</resources>
