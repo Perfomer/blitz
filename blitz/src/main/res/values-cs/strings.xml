@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blitz_future">v budoucnu</string>
+    <string name="blitz_now">teď</string>
+
+    <string name="blitz_single_minute">před minutou</string>
+    <string name="blitz_single_hour">před hodinou</string>
+    <string name="blitz_single_day">včera</string>
+    <string name="blitz_single_week">před týdnem</string>
+    <string name="blitz_single_month">před měsícem</string>
+    <string name="blitz_single_year">před rokem</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="one">před %d sekundou</item>
+        <item quantity="few">před %d sekundami</item>
+        <item quantity="many">před %d sekundami</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="one">před %d minutou</item>
+        <item quantity="few">před %d minutami</item>
+        <item quantity="many">před %d minutami</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="one">před %d hodinou</item>
+        <item quantity="few">před %d hodinami</item>
+        <item quantity="many">před %d hodinami</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="one">před %d dnem</item>
+        <item quantity="few">před %d dny</item>
+        <item quantity="many">před %d dny</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="one">před %d týdnem</item>
+        <item quantity="few">před %d týdny</item>
+        <item quantity="many">před %d týdny</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="one">před %d měsícem</item>
+        <item quantity="few">před %d měsíci</item>
+        <item quantity="many">před %d měsíci</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="one">před %d rokem</item>
+        <item quantity="few">před %d lety</item>
+        <item quantity="many">před %d lety</item>
+    </plurals>
+</resources>

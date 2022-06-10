@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blitz_future">w przyszłości</string>
+    <string name="blitz_now">teraz</string>
+
+    <string name="blitz_single_minute">minutę temu</string>
+    <string name="blitz_single_hour">godzinę temu</string>
+    <string name="blitz_single_day">wczoraj</string>
+    <string name="blitz_single_week">tydzień temu</string>
+    <string name="blitz_single_month">miesiąc temu</string>
+    <string name="blitz_single_year">rok temu</string>
+
+    <plurals name="blitz_seconds">
+        <item quantity="one">%d sekundę temu</item>
+        <item quantity="few">%d sekundy temu</item>
+        <item quantity="many">%d sekund temu</item>
+    </plurals>
+
+    <plurals name="blitz_minutes">
+        <item quantity="one">%d minutę temu</item>
+        <item quantity="few">%d minuty temu</item>
+        <item quantity="many">%d minut temu</item>
+    </plurals>
+
+    <plurals name="blitz_hours">
+        <item quantity="one">%d godzinę temu</item>
+        <item quantity="few">%d godziny temu</item>
+        <item quantity="many">%d godzin temu</item>
+    </plurals>
+
+    <plurals name="blitz_days">
+        <item quantity="one">%d dzień temu</item>
+        <item quantity="few">%d dni temu</item>
+        <item quantity="many">%d dni temu</item>
+    </plurals>
+
+    <plurals name="blitz_weeks">
+        <item quantity="one">%d tydzień temu</item>
+        <item quantity="few">%d tygodnie temu</item>
+        <item quantity="many">%d tygodni temu</item>
+    </plurals>
+
+    <plurals name="blitz_months">
+        <item quantity="one">%d miesiąc temu</item>
+        <item quantity="few">%d miesiące temu</item>
+        <item quantity="many">%d miesięcy temu</item>
+    </plurals>
+
+    <plurals name="blitz_years">
+        <item quantity="one">%d rok temu</item>
+        <item quantity="few">%d lata temu</item>
+        <item quantity="many">%d lat temu</item>
+    </plurals>
+</resources>
